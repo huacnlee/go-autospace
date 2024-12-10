@@ -1,4 +1,4 @@
-https://github.com/longbridgeapp/autocorrect/releases
+https://github.com/longbridge/autocorrect/releases
 
 ## 1.0.0
 
@@ -12,7 +12,7 @@ func (my myFormatter) Format(text string) string {
   return strings.ReplaceAll(text, "ios", "iOS")
 }
 
-autocorrect.Format("新版本ios即将发布", myFormatter{})
+autocorrect.Format("新版本 ios 即将发布", myFormatter{})
 // "新版本 iOS 即将发布"
 ```
 

@@ -3,7 +3,7 @@ package autocorrect
 import (
 	"testing"
 
-	"github.com/longbridgeapp/assert"
+	"github.com/longbridge/assert"
 )
 
 func Test_halfwidth(t *testing.T) {

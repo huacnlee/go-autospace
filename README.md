@@ -1,6 +1,6 @@
 # AutoCorrrect for Go
 
-[![Go](https://github.com/longbridgeapp/autocorrect/workflows/Go/badge.svg)](https://github.com/longbridgeapp/autocorrect/actions?query=workflow%3AGo)
+[![Go](https://github.com/longbridge/autocorrect/workflows/Go/badge.svg)](https://github.com/longbridge/autocorrect/actions?query=workflow%3AGo)
 
 Automatically add whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols).
 
@@ -25,7 +25,7 @@ Go 版本的 [AutoCorrect](https://github.com/huacnlee/autocorrect) 实现，用
 ## Usage
 
 ```
-go get github.com/longbridgeapp/autocorrect
+go get github.com/longbridge/autocorrect
 ```
 
 Use `autocorrect.Format` to format plain text.
@@ -35,7 +35,7 @@ https://play.golang.org/p/ntVhrGYnxNk
 ```go
 package main
 
-import "github.com/longbridgeapp/autocorrect"
+import "github.com/longbridge/autocorrect"
 
 func main() {
   autocorrect.Format("长桥LongBridge App下载")
@@ -83,7 +83,7 @@ Use `autocorrect.Unformat` to cleanup spacings in plain text.
 ```go
 package main
 
-import "github.com/longbridgeapp/autocorrect"
+import "github.com/longbridge/autocorrect"
 
 func main() {
   autocorrect.Unformat("据港交所最新权益披露资料显示，2019 年 12 月 27 日，三生制药获 JP Morgan Chase & Co.每股均价 9.582 港元，增持 270.3 万股，总价约 2590 万港元。")
@@ -98,7 +98,7 @@ https://go.dev/play/p/qS6NuPcYjSa
 ```go
 package main
 
-import "github.com/longbridgeapp/autocorrect"
+import "github.com/longbridge/autocorrect"
 
 func main() {
   autocorrect.FormatHTML(htmlBody)
@@ -113,7 +113,7 @@ func main() {
 Run `go test -bench=.` to benchmark.
 
 ```
-pkg: github.com/longbridgeapp/autocorrect
+pkg: github.com/longbridge/autocorrect
 BenchmarkFormat50-8           	   28234	     40439 ns/op
 BenchmarkFormat100-8          	   15157	     79213 ns/op
 BenchmarkFormat400-8          	    4172	    287352 ns/op

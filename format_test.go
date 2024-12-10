@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/longbridgeapp/assert"
+	"github.com/longbridge/assert"
 )
 
 func assertCases(t *testing.T, cases map[string]string) {
