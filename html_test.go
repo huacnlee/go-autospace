@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/longbridgeapp/assert"
+	"github.com/longbridge/assert"
 )
 
 func readFile(filename string) (out string) {
