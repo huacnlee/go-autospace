@@ -1,6 +1,6 @@
 # AutoCorrrect for Go
 
-[![Go](https://github.com/longbridge/autocorrect/workflows/Go/badge.svg)](https://github.com/longbridge/autocorrect/actions?query=workflow%3AGo)
+[![Test](https://github.com/longbridge/autocorrect/actions/workflows/go.yml/badge.svg)](https://github.com/longbridge/autocorrect/actions/workflows/go.yml)
 
 Automatically add whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols).
 
